@@ -26,6 +26,8 @@ public class UserController {
 	public String deleteUser(@PathVariable ("id")int id) {
 		user.deleteUser(id);
 		
+		System.out.println("hiii..!");
+		
 		return "delete";
 	}
 	
